@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>General Knowledge Quiz</title>
+    <link rel="shortcut icon" href="image/gk-icon2.png" type="image/x-icon">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+        }
+
+        header {
+            background-color: #0077b6;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+        }
+
+        .container {
+            padding: 20px;
+            text-align: center;
+        }
+
+        .quiz {
+            max-width: 600px;
+            margin: 0 auto;
+            background-color: #75b1ee;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .quiz h2 {
+            color: #333;
+        }
+
+        .question {
+            margin: 20px 0;
+        }
+
+        .options {
+            list-style: none;
+            padding: 0;
+        }
+
+        .options li {
+            margin: 10px 0;
+        }
+
+        .options input[type="radio"] {
+            margin-right: 10px;
+        }
+
+        .submit-btn {
+            margin-top: 20px;
+            background-color: #0077b6;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .submit-btn:hover {
+            background-color: #005f86;
+        }
+
+        footer {
+            background-color: #0077b6;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: 20px;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>General Knowledge Quiz</h1>
+    </header>
+
+    <div class="container">
+        <div class="quiz">
+            <h2>Challenge Your Knowledge!</h2>
+
+            <div class="question">
+                <p><strong>1. What is the capital of France?</strong></p>
+                <ul class="options">
+                    <li><input type="radio" name="q1" value="Berlin"> Berlin</li>
+                    <li><input type="radio" name="q1" value="Madrid"> Madrid</li>
+                    <li><input type="radio" name="q1" value="Paris"> Paris</li>
+                    <li><input type="radio" name="q1" value="Rome"> Rome</li>
+                </ul>
+                
+            </div>
+
+            <div class="question">
+                <p><strong>2. Who wrote "Hamlet"?</strong></p>
+                <ul class="options">
+                    <li><input type="radio" name="q2" value="Charles Dickens"> Charles Dickens</li>
+                    <li><input type="radio" name="q2" value="William Shakespeare"> William Shakespeare</li>
+                    <li><input type="radio" name="q2" value="Leo Tolstoy"> Leo Tolstoy</li>
+                    <li><input type="radio" name="q2" value="Mark Twain"> Mark Twain</li>
+                </ul>
+            </div>
+
+            <div class="question">
+                <p><strong>3. What is the largest planet in our solar system?</strong></p>
+                <ul class="options">
+                    <li><input type="radio" name="q3" value="Earth"> Earth</li>
+                    <li><input type="radio" name="q3" value="Mars"> Mars</li>
+                    <li><input type="radio" name="q3" value="Jupiter"> Jupiter</li>
+                    <li><input type="radio" name="q3" value="Saturn"> Saturn</li>
+                </ul>
+            </div>
+
+            <button class="submit-btn">Submit</button>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Kids Learning Platform. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>

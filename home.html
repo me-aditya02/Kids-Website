@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kids Learning Platform</title>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Luckiest+Guy&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="image/home-icon.png" type="image/x-icon">
+    <style>
+        body {
+            font-family: 'Caveat', cursive;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(135deg, #ffecd2, #fcb69f);
+            color: #333;
+        }
+
+        header {
+            background: url('image/r08hpy1l.png') center/cover no-repeat, linear-gradient(90deg, #f39c12, #e74c3c);
+            color: #fff;
+            padding: 50px 20px;
+            text-align: center;
+            border-bottom: 5px solid #f39c12;
+            position: relative;
+        }
+
+        header h1 {
+            font-family:  cursive;
+            font-size: 2.5em;
+            margin: 0;
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+        }
+
+        header p {
+            font-size: 1.2em;
+            margin: 10px 0 0;
+            text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.4);
+        }
+
+        nav {
+            background: linear-gradient(90deg, #f97d35, #e0680e);
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+            padding: 15px 0;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            margin: 0 20px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #fff;
+            font-weight: bold;
+            font-size: 1.2em;
+            transition: transform 0.2s ease, color 0.2s ease;
+        }
+
+        nav ul li a:hover {
+            color: #ffd700;
+            transform: scale(1.1);
+        }
+
+        .container {
+            padding: 40px 20px;
+        }
+
+        .section {
+            margin: 40px 0;
+        }
+
+        .section h2 {
+            font-size: 2.2em;
+            color: #d35400;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .cards {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .card {
+            background-color: #fff;
+            border: 2px solid #f6c7b6;
+            border-radius: 15px;
+            padding: 20px;
+            width: 280px;
+            text-align: center;
+            box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3);
+        }
+
+        .card img {
+            width: 100%;
+            border-radius: 10px;
+            margin-bottom: 15px;
+        }
+
+        .card h3 {
+            color: #e67e22;
+            font-size: 1.5em;
+            margin: 0;
+        }
+
+        footer {
+            background: linear-gradient(90deg, #f97d35, #e0680e);
+            text-align: center;
+            padding: 30px 10px;
+            color: #fff;
+            font-size: 1em;
+            margin-top: 40px;
+        }
+
+        footer h3 {
+            font-size: 1.5em;
+            font-family: 'Caveat', cursive;
+        }
+
+        footer p {
+            margin: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Kids Learning Platform 👼</h1>
+        <p>Learn, Play, and Grow Together</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#games">Games</a></li>
+            <li><a href="#videos">Videos</a></li>
+            <li><a href="#activities">Activities</a></li>
+            <li><a href="#quizzes">Quizzes</a></li>
+            <li><a href="#stories">Bedtime Stories</a></li>
+            <li><a href="#stem">STEM</a></li>
+            <li><a href="resume.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <section class="section" id="games">
+            <h2>Fun Learning Games</h2>
+            <div class="cards">
+                <div class="card">   
+                    <a href="math.html"><img src="image/maths.jpg" alt="Math Game"></a>
+                    <h3>Math Game</h3>
+                </div>
+                <div class="card">
+                    <a href="alphabet.html"><img src="image/alphabet.avif" alt="Alphabet Puzzle"></a>
+                    <h3>Alphabet Puzzle</h3>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" id="videos">
+            <h2>Educational Videos</h2>
+            <div class="cards">
+                <div class="card">
+                    <a href="science.html"><img src="image/science.webp" alt="Science Video"></a>
+                    <h3>Science Wonders</h3>
+                </div>
+                <div class="card">
+                    <a href="history.html"><img src="image/history.jpg" alt="History Video"></a>
+                    <h3>History for Kids</h3>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" id="activities">
+            <h2>Creative Activities</h2>
+            <div class="cards">
+                <div class="card">
+                    <a href="drawing.html"><img src="image/drawing.avif" alt="Drawing Activity"></a>
+                    <h3>Drawing</h3>
+                </div>
+                <div class="card">
+                    <a href="ArtMusic.html"><img src="image/craftl.jpg" alt="Craft Activity"></a>
+                    <h3>Crafting</h3>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" id="quizzes">
+            <h2>Interactive Quizzes</h2>
+            <div class="cards">
+                <div class="card">
+                    <a href="MathQuiz.html"><img src="image/math-quiz.jpg" alt="Math Quiz"></a>
+                    <h3>Math Quiz</h3>
+                </div>
+                <div class="card">
+                    <a href="general.html"><img src="image/gk.jpg" alt="General Knowledge Quiz"></a>
+                    <h3>General Knowledge Quiz</h3>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" id="stories">
+            <h2>Bedtime Stories</h2>
+            <div class="cards">
+                <div class="card">
+                    <a href="fairy.html"><img src="image/fairy.jpeg" alt="Fairy Tale"></a>
+                    <h3>Fairy Tales</h3>
+                </div>
+                <div class="card">
+                    <a href="Adventure.html"><img src="image/adv.webp" alt="Adventure Story"></a>
+                    <h3>Adventure Stories</h3>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" id="stem">
+            <h2>STEM</h2>
+            <div class="cards">
+                <div class="card">
+                    <a href="computer.html"><img src="image/computr-kids.jpg" alt="Learn Computers"></a>
+                    <h3>Learn Computers</h3>
+                </div>
+                <div class="card">
+                    <a href="geometry.html"><img src="image/geometry-long.png" alt="Basic Geometry"></a>
+                    <h3>Basic Geometry Shapes</h3>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <h3>Making educational experiences better for everyone.</h3>
+        <p>&copy; 2025 Kids Learning Platform. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
